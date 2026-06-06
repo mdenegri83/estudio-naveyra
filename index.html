@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveyra & Asociados | Asesoramiento General a Empresas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        olivaOscuro: '#2A3324',
+                        doradoSuave: '#B89B5E',
+                        crema: '#FDFCF0',
+                        blanco: '#FFFFFF',
+                        grisTexto: '#333333'
+                    },
+                    fontFamily: {
+                        serif: ['Merriweather', 'serif'],
+                        display: ['Playfair Display', 'serif'],
+                        formal: ['Cinzel', 'serif'] 
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-serif antialiased text-grisTexto bg-crema">
+
+    <nav class="fixed w-full z-50 bg-olivaOscuro text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center flex-shrink-0">
+                    <img class="h-12 w-auto mr-3 object-contain" src="Imagen_estudio.jpg" alt="Logo Naveyra & Asociados">
+                    <span class="font-display font-bold text-xl tracking-wider">
+                        NAVEYRA & ASOCIADOS
+                    </span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-sans text-sm tracking-wide">
+                    <a href="#inicio" class="hover:text-doradoSuave transition-colors duration-300">Inicio</a>
+                    <a href="#estudio" class="hover:text-doradoSuave transition-colors duration-300">Estudio</a>
+                    <a href="#servicios" class="hover:text-doradoSuave transition-colors duration-300">Servicios</a>
+                    <a href="#equipo" class="hover:text-doradoSuave transition-colors duration-300">Equipo</a>
+                    <a href="#clientes" class="hover:text-doradoSuave transition-colors duration-300">Clientes</a>
+                </div>
+                <div class="hidden md:flex font-sans">
+                    <a href="#contacto" class="bg-doradoSuave text-olivaOscuro px-6 py-2 rounded-md font-bold hover:bg-white hover:text-olivaOscuro transition-colors duration-300 shadow-lg">Consulta Legal</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="pt-32 pb-20 bg-olivaOscuro text-white min-h-screen flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="font-formal text-4xl md:text-5xl font-semibold mb-6 leading-tight text-crema tracking-wider">
+                Soluciones Juridicas<br> claras y efectivas
+            </h1>
+            <p class="text-xl md:text-xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed">
+                Somos una firma que brinda servicios de asesoramiento general y asistencia letrada a empresas en conflictos tributarios, civiles, comerciales y laborales en la zona de Valle de Uco. 
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 font-sans">
+                <a href="#contacto" class="bg-doradoSuave text-olivaOscuro px-8 py-4 rounded-md font-bold text-lg hover:bg-white transition-transform transform hover:-translate-y-1 shadow-lg text-center">
+                    Iniciá tu consulta
+                </a>
+                <a href="#servicios" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-white hover:text-olivaOscuro transition-colors duration-300 text-center">
+                    Nuestros Servicios
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="estudio" class="py-20 bg-blanco">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-display text-3xl font-bold text-olivaOscuro mb-4">Nuestro Estudio</h2>
+                <div class="w-24 h-1 bg-doradoSuave mx-auto mt-2"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                
+                <div class="bg-crema p-8 rounded-lg shadow-md border-t-4 border-doradoSuave">
+                    <h3 class="font-display text-xl font-bold text-olivaOscuro mb-4">Compromiso y Soluciones</h3>
+                    <p class="text-grisTexto leading-relaxed text-sm">
+                        El estudio está conformado por un grupo de profesionales del derecho que tienen como objetivo brindar soluciones eficaces y beneficiosas a nuestros clientes y así mantener una relación duradera y satisfactoria.
+                    </p>
+                </div>
+                
+                <div class="bg-crema p-8 rounded-lg shadow-md border-t-4 border-doradoSuave">
+                    <h3 class="font-display text-xl font-bold text-olivaOscuro mb-4">Excelencia Profesional</h3>
+                    <p class="text-grisTexto leading-relaxed text-sm">
+                        El alto grado de capacitación, experiencia, profesionalismo e integridad del equipo de abogados nos permite ofrecer un servicio eficiente a costos razonables y adecuados a los casos abordados, en un marco de absoluta discreción y confidencialidad.
+                    </p>
+                </div>
+
+                <div class="bg-crema p-8 rounded-lg shadow-md border-t-4 border-doradoSuave">
+                    <h3 class="font-display text-xl font-bold text-olivaOscuro mb-4">Asistencia Personalizada</h3>
+                    <p class="text-grisTexto leading-relaxed text-sm">
+                        Mediante una asistencia personalizada, buscamos informar a nuestros clientes periódicamente sobre los avances que se producen en pos de cumplir los objetivos fijados y en función de la estrategia consensuada.
+                    </p>
+                </div>
+
+                <div class="bg-crema p-8 rounded-lg shadow-md border-t-4 border-doradoSuave">
+                    <h3 class="font-display text-xl font-bold text-olivaOscuro mb-4">Disponibilidad Permanente</h3>
+                    <p class="text-grisTexto leading-relaxed text-sm">
+                        Contamos con una estructura que permite brindar una disponibilidad permanente, afrontando de forma rápida e integral los asuntos encomendados.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-20 bg-olivaOscuro text-crema min-h-screen flex items-center">
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 max-w-6xl mx-auto">
+                
+                <div>
+                    <h2 class="font-formal text-3xl md:text-3xl font-semibold mb-8 leading-tight text-white">
+                        Asesoría y Representación en<br><span class="text-doradoSuave">Derecho Laboral</span>
+                    </h2>
+                    <ul class="text-lg space-y-4 font-sans text-gray-200">
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Despidos individuales y colectivos</span>
+                        </li>
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Trabajo en negro</span>
+                        </li>
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Reclamos por diferencias salariales y horas extras</span>
+                        </li>
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Accidentes y enfermedades laborales</span>
+                        </li>
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Discriminación y Violencia Laboral</span>
+                        </li>
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Indemnizaciones laborales</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="font-formal text-3xl md:text-3xl font-semibold mb-8 leading-tight text-white">
+                        Asesoría y Representación en<br><span class="text-doradoSuave">Derecho Civil</span>
+                    </h2>
+                    <ul class="text-lg space-y-4 font-sans text-gray-200">
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Daños y perjuicios</span>
+                        </li>
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Sucesiones</span>
+                        </li>
+                        <li class="flex items-start border-b border-gray-600 pb-4">
+                            <svg class="w-6 h-6 text-doradoSuave mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-6-2a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"></path></svg>
+                            <span>Título supletorio y acciones reales</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="equipo" class="py-20 bg-blanco border-t border-gray-200 relative overflow-hidden">
+        
+        <div class="absolute inset-0 z-0 flex items-center justify-center pointer-events-none opacity-[0.10]">
+            <img src="Imagen_estudio.jpg" alt="Marca de agua" class="w-full max-w-5xl object-contain mix-blend-multiply">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="font-display text-3xl font-bold text-olivaOscuro mb-4">Nuestro Equipo</h2>
+                <div class="w-24 h-1 bg-doradoSuave mx-auto mt-2"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div class="bg-transparent p-8 rounded-lg flex flex-col items-center">
+                    <div class="min-h-[6rem] flex flex-col items-center justify-start mb-6">
+                        <h3 class="font-display text-2xl font-bold text-olivaOscuro mb-1 text-center"> Dr. Ernesto Naveyra</h3>
+                        <p class="text-sm text-doradoSuave font-bold uppercase tracking-wide font-sans">Socio Fundador</p>
+                    </div>
+                    
+                    <div class="w-full text-sm space-y-4 text-left">
+                        <div>
+                            <h4 class="font-bold text-olivaOscuro border-b border-gray-300 pb-1 mb-2">Formación Académica</h4>
+                            <p>Facultad de Derecho, Universidad Nacional de Cuyo, Mendoza. Carrera: Abogacía.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-olivaOscuro border-b border-gray-300 pb-1 mb-2">Antecedentes Laborales</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-xs leading-relaxed">
+                                <li>Profesor Titular en la cátedra de Título de comercio, Universidad Champagnat campus Tunuyán (2016/actualidad).</li>
+                                <li>Abogado en Estudio Jurídico Naveyra López, Tunuyán (2012/actualidad) - Ejercicio Independiente de la profesión de abogado.</li>
+                                <li>Procurador Apoderado del Banco de la Nación Argentina (2009/actualidad).</li>
+                                <li>Abogado en Estudio Jurídico Naveyra, Ciudad de Mendoza (año 2008/actualidad) - Ejercicio independiente de la profesión de abogado.</li>
+                                <li>Abogado en Estudio Jurídico Naveyra López, Tunuyán (2011/actualidad) - Ejercicio Independiente de la profesión de abogado.</li>
+                                <li>Profesor Adscripto a la cátedra de Derecho Privado VIII de la Facultad de Derecho de la UNC (2008/2011).</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-olivaOscuro border-b border-gray-300 pb-1 mb-2">Otros Estudios – Cursos Realizados</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-xs leading-relaxed">
+                                <li>Curso de Sindicatura Concursal “Derecho de Insolvencia” (Jornadas bianuales. Año 2010).</li>
+                                <li>“Diplomatura en Derecho Empresario Fundación ADEN” (Año 2009).</li>
+                                <li>Curso para Abogados del Estado, organized por la Escuela de Gobierno y Administración dependiente del Ministerio Secretaría General de la Gobernación de la Provincia de Mendoza. Duración: 68 horas reloj (2009).</li>
+                                <li>“Jornadas de Derecho Concursal, Mendoza 2006”, dictadas en la Facultad de Ciencias Económicas de la Universidad Nacional de Cuyo, Mendoza (Julio de 2006).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-transparent p-8 rounded-lg flex flex-col items-center">
+                    <div class="min-h-[6rem] flex flex-col items-center justify-start mb-6">
+                        <h3 class="font-display text-2xl font-bold text-olivaOscuro mb-1 text-center"> Dra. María Florencia Rodríguez Denegri</h3>
+                        <p class="text-sm text-doradoSuave font-bold uppercase tracking-wide font-sans">Abogada Asociada</p>
+                    </div>
+                    
+                    <div class="w-full text-sm space-y-4 text-left">
+                        <div>
+                            <h4 class="font-bold text-olivaOscuro border-b border-gray-300 pb-1 mb-2">Formación Académica</h4>
+                            <p>Universidad Champagnat, Tunuyán Mendoza. Carrera: Abogacía.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-olivaOscuro border-b border-gray-300 pb-1 mb-2">Antecedentes Laborales</h4>
+                            <p>Estudio Naveyra- López.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-olivaOscuro border-b border-gray-300 pb-1 mb-2">Otros Estudios y Capacitaciones</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-xs leading-relaxed">
+                                <li>Diplomatura en Derecho Laboral Práctico dictado por la UCASAL.</li>
+                                <li>Curso y capacitación en Comisiones médicas, dictada por la Dra. Virginia Mendoza, noviembre de 2023, dictado por la Comisión de Derecho laboral y Colegio de abogados del Valle de Uco.</li>
+                                <li>Capacitación en Ley de Riesgos del Trabajo, Enfermedades Listadas y no Listadas, dictada por la disertante Dra. Daniela Favier, julio de 2025, dictado por la Comisión de Derecho laboral y Colegio de abogados del Valle de Uco.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clientes" class="py-20 bg-crema border-t border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-display text-3xl font-bold text-olivaOscuro mb-4">Nuestros Clientes</h2>
+                <div class="w-24 h-1 bg-doradoSuave mx-auto mt-2"></div>
+            </div>
+            <div class="space-y-4 font-sans">
+                <div class="bg-blanco p-5 rounded-lg border-l-4 border-doradoSuave shadow-sm flex justify-between items-center">
+                    <span class="font-bold text-base text-olivaOscuro">Tarjetas Cuyanas S.A.</span>
+                </div>
+                <div class="bg-blanco p-5 rounded-lg border-l-4 border-doradoSuave shadow-sm flex justify-between items-center">
+                    <span class="font-bold text-base text-olivaOscuro">Montemar Compañía Financiera S.A.</span>
+                </div>
+                <div class="bg-blanco p-5 rounded-lg border-l-4 border-doradoSuave shadow-sm flex justify-between items-center">
+                    <span class="font-bold text-base text-olivaOscuro">Industrias Alimenticias Mendocinas S.A.</span>
+                </div>
+                <div class="bg-blanco p-5 rounded-lg border-l-4 border-doradoSuave shadow-sm flex justify-between items-center">
+                    <span class="font-bold text-base text-olivaOscuro">Farmacia Pellegrini</span>
+                </div>
+                <div class="bg-blanco p-5 rounded-lg border-l-4 border-doradoSuave shadow-sm flex justify-between items-center">
+                    <span class="font-bold text-base text-olivaOscuro">Maggini Hermanos</span>
+                </div>
+                <div class="bg-blanco p-5 rounded-lg border-l-4 border-doradoSuave shadow-sm flex justify-between items-center">
+                    <span class="font-bold text-base text-olivaOscuro">Agua y Saneamiento Mendoza SA (AYSAM)</span>
+                </div>
+                <div class="bg-blanco p-5 rounded-lg border-l-4 border-doradoSuave shadow-sm flex justify-between items-center">
+                    <span class="font-bold text-base text-olivaOscuro text-gray-500">Otros</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-olivaOscuro text-gray-300 py-16 font-sans border-t-4 border-doradoSuave">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <h3 class="font-display text-2xl font-bold text-doradoSuave mb-6">Naveyra & Asociados</h3>
+                    <p class="mb-4 text-sm leading-relaxed">
+                        Servicios de asesoramiento general y asistencia letrada a empresas en conflictos tributarios, civiles, comerciales y laborales.
+                    </p>
+                    <p class="text-xs text-doradoSuave font-bold">Valle de Uco, Mendoza</p>
+                </div>
+                <div>
+                    <h3 class="font-display text-2xl font-bold text-doradoSuave mb-6">Sedes de Atención</h3>
+                    <ul class="space-y-4 text-sm text-white">
+                        <li><span class="font-bold text-doradoSuave">Tunuyán: </span> Roque Sáenz Peña 1189, Planta baja oficina 1</li>
+                        <li><span class="font-bold text-doradoSuave">Tel: </span> 2622-581637</li>
+                        <li><span class="font-bold text-doradoSuave">Mail: </span> estudionaveyralopez@gmail.com</li>
+                    </ul>
+                    <p class="mt-4 text-xs italic opacity-80 border-t border-gray-700 pt-2">Atención personalizada con absoluta discreción y confidencialidad.</p>
+                </div>
+                <div>
+                    <h3 class="font-display text-2xl font-bold text-doradoSuave mb-6">Iniciá tu Consulta</h3>
+                    <form action="https://formsubmit.co/estudionaveyralopez@gmail.com" method="POST" class="space-y-4 text-gray-800 text-sm">
+                        <input type="text" name="Nombre_o_Empresa" placeholder="Nombre o Razón Social" class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-doradoSuave" required>
+    
+                        <input type="email" name="Email_Contacto" placeholder="Correo Electrónico" class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-doradoSuave" required>
+    
+                        <textarea name="Mensaje" placeholder="Detalle de su consulta empresarial..." rows="3" class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-doradoSuave" required></textarea>
+    
+                        <input type="hidden" name="_subject" value="¡Nueva consulta legal desde la Web!">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+    
+                        <button type="submit" class="w-full bg-doradoSuave text-olivaOscuro font-bold py-3 rounded hover:bg-white transition-colors duration-300">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-xs text-gray-400">
+                <p>&copy; 2026 Naveyra & Asociados. Todos los derechos reservados. Servicios profesionales eficientes a costos razonables.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="https://wa.me/5492622581637?text=Hola,%20deseo%20realizar%20una%20consulta%20legal." 
+       target="_blank" 
+       class="fixed bottom-8 right-8 z-50 flex items-center justify-center group"
+       title="Contactar por WhatsApp">
+        
+        <div class="absolute inset-0 bg-[#25D366] rounded-full opacity-20 scale-150 transition-transform duration-500 group-hover:scale-175"></div>
+        <div class="absolute inset-0 bg-[#25D366] rounded-full opacity-40 scale-125 transition-transform duration-500 group-hover:scale-150"></div>
+        
+        <div class="relative w-14 h-14 bg-[#25D366] rounded-full shadow-xl flex items-center justify-center text-white transition-transform duration-300 group-hover:scale-110">
+            <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.437-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+        </div>
+    </a>
+
+</body>
+</html>
